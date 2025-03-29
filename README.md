@@ -35,10 +35,12 @@ But it may take a long time (assuming the robot does not get stuck due to physic
    ```
 5. Run the node
 6. Dont forget to run auto.cpp
-   ```ros2 run haruto_description auto
+   ```
+   ros2 run haruto_description auto
    ```
    as well as
-   ```ros2 launch haruto_description visualize_robot_simulation.launch.py
+   ```
+   ros2 launch haruto_description visualize_robot_simulation.launch.py
    ```
 
 ## Image
