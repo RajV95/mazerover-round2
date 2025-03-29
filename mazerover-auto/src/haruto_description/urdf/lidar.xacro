@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="lidar" params="parent child xyz rpy">
+
+    <link name="lidar_link">    
+      <inertial>
+        <pose>0.215 0 0.02 0 0 0</pose>  <!-- Lowered height -->
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.114</mass>
+      </inertial>
+ 
+      <collision name="lidar_collision">
+        <pose>0.215 0 0.08 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0508</radius>
+            <length>0.12</length>  <!-- Reduced size -->
+          </cylinder>
+        </geometry>
+      </collision>
+ 
+      <visual name="lidar_visual">
+        <pose>0.215 0 0.08 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0508</radius>
+            <length>0.12</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.2 0.2 0.2 1.0</ambient>
+          <diffuse>0.2 0.2 0.2 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1.0</specular>
+          <emissive>0.2 0.2 0.2 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+  
+    <joint name="${parent}_to_${child}_joint" type="fixed">
+      <origin xyz="${xyz}" rpy="${rpy}" />
+      <parent link="${parent}" />
+      <child link="${child}" />
+    </joint>
+
+  </xacro:macro>
+
+</robot>
+

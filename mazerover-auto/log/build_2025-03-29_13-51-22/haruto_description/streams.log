@@ -1,0 +1,47 @@
+[0.031s] Invoking command in '/home/raj/mazerover-auto/build/haruto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raj/mazerover-auto/build/haruto_description -- -j2 -l2
+[0.120s] [ 25%] [32mBuilding CXX object CMakeFiles/auto.dir/script/auto.cpp.o[0m
+[0.129s] [ 75%] Built target talker
+[12.888s] [100%] [32m[1mLinking CXX executable auto[0m
+[13.623s] [100%] Built target auto
+[13.649s] Invoked command in '/home/raj/mazerover-auto/build/haruto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raj/mazerover-auto/build/haruto_description -- -j2 -l2
+[13.672s] Invoking command in '/home/raj/mazerover-auto/build/haruto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raj/mazerover-auto/build/haruto_description
+[13.689s] -- Install configuration: ""
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/motor.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/base.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/camera.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/wheel.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/lidar.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/robot.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/pillar.xacro
+[13.690s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/worlds
+[13.691s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/worlds/maze.world
+[13.691s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script
+[13.691s] -- Installing: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script/auto.cpp
+[13.691s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script/min.cpp
+[13.691s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/talker
+[13.693s] -- Installing: /home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/auto
+[13.699s] -- Set runtime path of "/home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/auto" to ""
+[13.699s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz
+[13.699s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz/with_camera.rviz
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz/visualize_robot.rviz
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/visualize_robot_standalone.launch.py
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/pre_vashisht.launch.py
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/visualize_robot_simulation.launch.py
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/package_run_dependencies/haruto_description
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/parent_prefix_path/haruto_description
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/ament_prefix_path.sh
+[13.700s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/ament_prefix_path.dsv
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/path.sh
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/path.dsv
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.bash
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.sh
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.zsh
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.dsv
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/package.dsv
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/packages/haruto_description
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/cmake/haruto_descriptionConfig.cmake
+[13.701s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/cmake/haruto_descriptionConfig-version.cmake
+[13.702s] -- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/package.xml
+[13.705s] Invoked command in '/home/raj/mazerover-auto/build/haruto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raj/mazerover-auto/build/haruto_description

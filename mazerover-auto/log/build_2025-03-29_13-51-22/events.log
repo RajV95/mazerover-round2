@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000749] (haruto_description) JobQueued: {'identifier': 'haruto_description', 'dependencies': OrderedDict()}
+[0.000831] (haruto_description) JobStarted: {'identifier': 'haruto_description'}
+[0.020209] (haruto_description) JobProgress: {'identifier': 'haruto_description', 'progress': 'cmake'}
+[0.023474] (haruto_description) JobProgress: {'identifier': 'haruto_description', 'progress': 'build'}
+[0.030529] (haruto_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raj/mazerover-auto/build/haruto_description', '--', '-j2', '-l2'], 'cwd': '/home/raj/mazerover-auto/build/haruto_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raj'), ('OLDPWD', '/home/raj/mazerover-auto'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raj/mazerover-auto/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raj-virtual-machine:@/tmp/.ICE-unix/1746,unix/raj-virtual-machine:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6502a206_37c4_4f95_b49b_60a9e9f18a26'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RH1532'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raj/mazerover-auto/install/haruto_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raj/mazerover-auto/build/haruto_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raj/mazerover-auto/install/haruto_description:/opt/ros/humble')]), 'shell': False}
+[0.100153] (-) TimerEvent: {}
+[0.120206] (haruto_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/auto.dir/script/auto.cpp.o\x1b[0m\n'}
+[0.126265] (haruto_description) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[0.200313] (-) TimerEvent: {}
+[0.300976] (-) TimerEvent: {}
+[0.401658] (-) TimerEvent: {}
+[0.502427] (-) TimerEvent: {}
+[0.602938] (-) TimerEvent: {}
+[0.703985] (-) TimerEvent: {}
+[0.804787] (-) TimerEvent: {}
+[0.905297] (-) TimerEvent: {}
+[1.005955] (-) TimerEvent: {}
+[1.106606] (-) TimerEvent: {}
+[1.207193] (-) TimerEvent: {}
+[1.307662] (-) TimerEvent: {}
+[1.408229] (-) TimerEvent: {}
+[1.508689] (-) TimerEvent: {}
+[1.609465] (-) TimerEvent: {}
+[1.710209] (-) TimerEvent: {}
+[1.810834] (-) TimerEvent: {}
+[1.911838] (-) TimerEvent: {}
+[2.012367] (-) TimerEvent: {}
+[2.112979] (-) TimerEvent: {}
+[2.213748] (-) TimerEvent: {}
+[2.314321] (-) TimerEvent: {}
+[2.415099] (-) TimerEvent: {}
+[2.515759] (-) TimerEvent: {}
+[2.616162] (-) TimerEvent: {}
+[2.716803] (-) TimerEvent: {}
+[2.817328] (-) TimerEvent: {}
+[2.918013] (-) TimerEvent: {}
+[3.018569] (-) TimerEvent: {}
+[3.119251] (-) TimerEvent: {}
+[3.219814] (-) TimerEvent: {}
+[3.320481] (-) TimerEvent: {}
+[3.420961] (-) TimerEvent: {}
+[3.521696] (-) TimerEvent: {}
+[3.622525] (-) TimerEvent: {}
+[3.723026] (-) TimerEvent: {}
+[3.823608] (-) TimerEvent: {}
+[3.924150] (-) TimerEvent: {}
+[4.024651] (-) TimerEvent: {}
+[4.125307] (-) TimerEvent: {}
+[4.225854] (-) TimerEvent: {}
+[4.326291] (-) TimerEvent: {}
+[4.426880] (-) TimerEvent: {}
+[4.527623] (-) TimerEvent: {}
+[4.628153] (-) TimerEvent: {}
+[4.728800] (-) TimerEvent: {}
+[4.829390] (-) TimerEvent: {}
+[4.930703] (-) TimerEvent: {}
+[5.032884] (-) TimerEvent: {}
+[5.133682] (-) TimerEvent: {}
+[5.234446] (-) TimerEvent: {}
+[5.335082] (-) TimerEvent: {}
+[5.435607] (-) TimerEvent: {}
+[5.536412] (-) TimerEvent: {}
+[5.637190] (-) TimerEvent: {}
+[5.737785] (-) TimerEvent: {}
+[5.838582] (-) TimerEvent: {}
+[5.939199] (-) TimerEvent: {}
+[6.039868] (-) TimerEvent: {}
+[6.140542] (-) TimerEvent: {}
+[6.241048] (-) TimerEvent: {}
+[6.341724] (-) TimerEvent: {}
+[6.442269] (-) TimerEvent: {}
+[6.543078] (-) TimerEvent: {}
+[6.643548] (-) TimerEvent: {}
+[6.744227] (-) TimerEvent: {}
+[6.844811] (-) TimerEvent: {}
+[6.945437] (-) TimerEvent: {}
+[7.045968] (-) TimerEvent: {}
+[7.146757] (-) TimerEvent: {}
+[7.249129] (-) TimerEvent: {}
+[7.351132] (-) TimerEvent: {}
+[7.451648] (-) TimerEvent: {}
+[7.552135] (-) TimerEvent: {}
+[7.652506] (-) TimerEvent: {}
+[7.752871] (-) TimerEvent: {}
+[7.855501] (-) TimerEvent: {}
+[7.955985] (-) TimerEvent: {}
+[8.056745] (-) TimerEvent: {}
+[8.158314] (-) TimerEvent: {}
+[8.258785] (-) TimerEvent: {}
+[8.361153] (-) TimerEvent: {}
+[8.462437] (-) TimerEvent: {}
+[8.564139] (-) TimerEvent: {}
+[8.666271] (-) TimerEvent: {}
+[8.766647] (-) TimerEvent: {}
+[8.867657] (-) TimerEvent: {}
+[8.970277] (-) TimerEvent: {}
+[9.071791] (-) TimerEvent: {}
+[9.172364] (-) TimerEvent: {}
+[9.274673] (-) TimerEvent: {}
+[9.375091] (-) TimerEvent: {}
+[9.476499] (-) TimerEvent: {}
+[9.578142] (-) TimerEvent: {}
+[9.678886] (-) TimerEvent: {}
+[9.779482] (-) TimerEvent: {}
+[9.880095] (-) TimerEvent: {}
+[9.981143] (-) TimerEvent: {}
+[10.082702] (-) TimerEvent: {}
+[10.185671] (-) TimerEvent: {}
+[10.287130] (-) TimerEvent: {}
+[10.387843] (-) TimerEvent: {}
+[10.488679] (-) TimerEvent: {}
+[10.589190] (-) TimerEvent: {}
+[10.689803] (-) TimerEvent: {}
+[10.790626] (-) TimerEvent: {}
+[10.891119] (-) TimerEvent: {}
+[10.991822] (-) TimerEvent: {}
+[11.092503] (-) TimerEvent: {}
+[11.193149] (-) TimerEvent: {}
+[11.294108] (-) TimerEvent: {}
+[11.394766] (-) TimerEvent: {}
+[11.495479] (-) TimerEvent: {}
+[11.596038] (-) TimerEvent: {}
+[11.696609] (-) TimerEvent: {}
+[11.797097] (-) TimerEvent: {}
+[11.897682] (-) TimerEvent: {}
+[11.998206] (-) TimerEvent: {}
+[12.098704] (-) TimerEvent: {}
+[12.199506] (-) TimerEvent: {}
+[12.300026] (-) TimerEvent: {}
+[12.402473] (-) TimerEvent: {}
+[12.503124] (-) TimerEvent: {}
+[12.603715] (-) TimerEvent: {}
+[12.704329] (-) TimerEvent: {}
+[12.804902] (-) TimerEvent: {}
+[12.888320] (haruto_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable auto\x1b[0m\n'}
+[12.905317] (-) TimerEvent: {}
+[13.006328] (-) TimerEvent: {}
+[13.106781] (-) TimerEvent: {}
+[13.207618] (-) TimerEvent: {}
+[13.309845] (-) TimerEvent: {}
+[13.412336] (-) TimerEvent: {}
+[13.512871] (-) TimerEvent: {}
+[13.613954] (-) TimerEvent: {}
+[13.623214] (haruto_description) StdoutLine: {'line': b'[100%] Built target auto\n'}
+[13.648817] (haruto_description) CommandEnded: {'returncode': 0}
+[13.651878] (haruto_description) JobProgress: {'identifier': 'haruto_description', 'progress': 'install'}
+[13.672154] (haruto_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raj/mazerover-auto/build/haruto_description'], 'cwd': '/home/raj/mazerover-auto/build/haruto_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/raj'), ('OLDPWD', '/home/raj/mazerover-auto'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raj/mazerover-auto/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raj'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raj-virtual-machine:@/tmp/.ICE-unix/1746,unix/raj-virtual-machine:/tmp/.ICE-unix/1746'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6502a206_37c4_4f95_b49b_60a9e9f18a26'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RH1532'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.181'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raj/mazerover-auto/install/haruto_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raj/mazerover-auto/build/haruto_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raj/mazerover-auto/install/haruto_description:/opt/ros/humble')]), 'shell': False}
+[13.689905] (haruto_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.690355] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf\n'}
+[13.690524] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/motor.xacro\n'}
+[13.690610] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/base.xacro\n'}
+[13.690684] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/camera.xacro\n'}
+[13.690756] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/wheel.xacro\n'}
+[13.690856] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/lidar.xacro\n'}
+[13.690929] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/robot.xacro\n'}
+[13.690994] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/urdf/pillar.xacro\n'}
+[13.691076] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/worlds\n'}
+[13.691457] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/worlds/maze.world\n'}
+[13.691609] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script\n'}
+[13.691684] (haruto_description) StdoutLine: {'line': b'-- Installing: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script/auto.cpp\n'}
+[13.691839] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/script/min.cpp\n'}
+[13.691923] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/talker\n'}
+[13.693774] (haruto_description) StdoutLine: {'line': b'-- Installing: /home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/auto\n'}
+[13.699547] (haruto_description) StdoutLine: {'line': b'-- Set runtime path of "/home/raj/mazerover-auto/install/haruto_description/lib/haruto_description/auto" to ""\n'}
+[13.699858] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz\n'}
+[13.700144] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz/with_camera.rviz\n'}
+[13.700341] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/rviz/visualize_robot.rviz\n'}
+[13.700485] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch\n'}
+[13.700625] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/visualize_robot_standalone.launch.py\n'}
+[13.700768] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/pre_vashisht.launch.py\n'}
+[13.700841] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/launch/visualize_robot_simulation.launch.py\n'}
+[13.700918] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/package_run_dependencies/haruto_description\n'}
+[13.700989] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/parent_prefix_path/haruto_description\n'}
+[13.701077] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/ament_prefix_path.sh\n'}
+[13.701211] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/ament_prefix_path.dsv\n'}
+[13.701303] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/path.sh\n'}
+[13.701376] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/environment/path.dsv\n'}
+[13.701447] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.bash\n'}
+[13.701521] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.sh\n'}
+[13.701594] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.zsh\n'}
+[13.701749] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/local_setup.dsv\n'}
+[13.701835] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/package.dsv\n'}
+[13.701909] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/ament_index/resource_index/packages/haruto_description\n'}
+[13.701986] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/cmake/haruto_descriptionConfig.cmake\n'}
+[13.702219] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/cmake/haruto_descriptionConfig-version.cmake\n'}
+[13.702305] (haruto_description) StdoutLine: {'line': b'-- Up-to-date: /home/raj/mazerover-auto/install/haruto_description/share/haruto_description/package.xml\n'}
+[13.705290] (haruto_description) CommandEnded: {'returncode': 0}
+[13.714093] (-) TimerEvent: {}
+[13.746670] (haruto_description) JobEnded: {'identifier': 'haruto_description', 'rc': 0}
+[13.748779] (-) EventReactorShutdown: {}
