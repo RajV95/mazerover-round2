@@ -45,4 +45,7 @@ But it may take a long time (assuming the robot does not get stuck due to physic
 
 ## Image
 
-![Maze Pathfinding](myImg.jpeg)
+![Maze Pathfinding](img.jpeg)
+## One of the Runs
+![One of the Runs](earth_1.gif)
+![One of the Runs2](earth_2.gif)
