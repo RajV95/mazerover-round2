@@ -18,7 +18,7 @@ Then the chain is **ergodic**, meaning:
 
 Since the maze is a strongly connected graph, the robot's movement is likely both irreducible and aperiodic, ensuring it will eventually visit all reachable states.
 
-But it may take a long time (assuming the robot does not get stuck due to physical structure of the robot)
+But it may take a long time (assuming the robot does not get stuck due to physical structure of the robot), Or we can run multiple times to decrease bad situations (monte-carlo)
 
 
 ## Setup Instructions
